@@ -18,6 +18,17 @@ This project is based on Laravel 11 framework + Laravel Jetstream v5 library
 - Run <code>php artisan migrate</code>
 - Run <code>npm install</code>
 - Run <code>npm run build</code>
+- Enable SMTP configurations in .env file. You can use Mailtrap.io, with your own username and password.
+```
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=**************
+MAIL_PASSWORD=**************
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+```
 - Run <code>php artisan serve</code>
 - Go to http://localhost:8000/
 
