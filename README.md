@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Installation
+
+This project is based on Laravel 11 framework + Laravel Jetstream v5 library
+- Clone the project. Run <code>git clone https://github.com/upl24uas/laravel-auth.git</code>
+- Go to the folder application using <code>cd laravel-auth</code> command on your command prompt or terminal
+- Run <code>composer install</code> on your cmd or terminal.
+- Copy .env.example file to .env on the root folder. You can type <code>copy .env.example .env</code> if using command prompt Windows, or <code>cp .env.example .env</code> if using terminal Ubuntu.
+- Run <code>php artisan key:generate</code>
+- Run <code>php artisan migrate</code>
+- Run <code>npm install</code>
+- Run <code>npm run build</code>
+- Run <code>php artisan serve</code>
+- Go to http://localhost:8000/
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
